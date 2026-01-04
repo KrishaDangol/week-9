@@ -12,14 +12,14 @@ public class BankApp
 
         CurrentAccount current = new CurrentAccount(2001, "Bob", 2000, 1000); 
         
-        System.out.println("---- Savings Account ----");
+        System.out.println("Savings Account");
         savings.displayAccountInfo();
         System.out.println("Interest Earned: $" + savings.calculateInterest());
 
         savings.deposit(1000);
         System.out.println("Balance after deposit: $" + savings.getBalance());
 
-        System.out.println("\n---- Current Account ----");
+        System.out.println(" Current Account");
         current.displayAccountInfo();
 
         current.withdraw(2500);

@@ -12,12 +12,12 @@ public class VehicleApp
 
         Bike bike = new Bike(201, "Honda", 15000, 150);
 
-        System.out.println("---- Car Details ----");
+        System.out.println(" Car Details ");
         car.displayVehicleInfo();
         System.out.println("Tax: $" + car.calculateTax());
         System.out.println("Final Price: $" + car.calculateFinalPrice());
         
-        System.out.println("\n---- Bike Details ----");
+        System.out.println(" Bike Details ");
         bike.displayVehicleInfo();
         System.out.println("Tax: $" + bike.calculateTax());
         System.out.println("Final Price: $" + bike.calculateFinalPrice());

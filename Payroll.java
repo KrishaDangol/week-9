@@ -12,11 +12,11 @@ public class Payroll
 
         ContractEmployee contractEmp = new ContractEmployee(201, "Bob", 200, 22); // $200 per day, 22 days worked
 
-        System.out.println("---- Permanent Employee ----");
+        System.out.println(" Permanent Employee ");
         permEmp.displayEmployee();
         System.out.println("Total Salary: $" + permEmp.calculateTotalSalary());
 
-        System.out.println("\n---- Contract Employee ----");
+        System.out.println(" Contract Employee ");
         contractEmp.displayEmployee();
         System.out.println("Total Salary: $" + contractEmp.calculateTotalSalary());
     }
